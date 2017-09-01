@@ -6,7 +6,7 @@
 
 [MicroProfile](http://microprofile.io) 은 Enterprise Java를 마이크로서비스 아키텍처에 최적화하고 다양한 MicroProfile 런타임 간 애플리케이션 이식성을 제공하는 베이스라인 플랫폼 정의입니다. [Microservice Builder](https://developer.ibm.com/microservice-builder/) provides means to develop, test and deploy your microservices using a Java and MicroProfile based programming model and tools.
 
-이 Microservice Builder [샘플 애플리케이션](https://github.com/WASdev/sample.microservicebuilder.docs) 은 컨퍼런스 관리를 위한 웹 애플리케이션으로 다양한 이산형 마이크로서비스를 기반으로 합니다. 프론트엔드는 Angular로 작성되었고 백엔드 마이크로서비스는 Java로 작성되었습니다. 모두 쿠버네티스에 의해 관리되는 도커 컨테이너의 WebSphere Liberty에서 실행됩니다.
+이 Microservice Builder [샘플 애플리케이션](https://github.com/WASdev/sample.microservicebuilder.docs)은 컨퍼런스 관리를 위한 웹 애플리케이션으로 다양한 이산형 마이크로서비스를 기반으로 합니다. 프론트엔드는 Angular로 작성되었고 백엔드 마이크로서비스는 Java로 작성되었습니다. 모두 쿠버네티스에 의해 관리되는 도커 컨테이너의 WebSphere Liberty에서 실행됩니다.
 
 ![Flow](images/microprofile_kube_code.png)
 
@@ -46,7 +46,7 @@ git clone https://github.com/IBM/Java-MicroProfile-on-Kubernetes.git
 cd Java-MicroProfile-on-Kubernetes
 ```
 
-그런 다음, MicroProfile 컨퍼런트 애플리케이션에서 측정 항목 수집을 위한 [Microservice Builder Fabric](https://www.ibm.com/support/knowledgecenter/SS5PWC/fabric_concept.html) 및 [ELK Sample](https://github.com/WASdev/sample.microservicebuilder.helm.elk/blob/master/sample_elk_concept.md) add-on을 설치합니다. 
+그런 다음, MicroProfile 컨퍼런스 애플리케이션에서 측정 항목 수집을 위한 [Microservice Builder Fabric](https://www.ibm.com/support/knowledgecenter/SS5PWC/fabric_concept.html) 및 [ELK Sample](https://github.com/WASdev/sample.microservicebuilder.helm.elk/blob/master/sample_elk_concept.md) add-on을 설치합니다. 
   
 [Helm](https://github.com/kubernetes/helm)을 설치하고 Helm을 이용하여 쿠버네티스에 필수 add-on을 설치합니다.
 
