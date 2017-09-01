@@ -61,7 +61,7 @@ helm install --name fabric mb/fabric
 helm repo add mb-sample https://wasdev.github.io/sample.microservicebuilder.helm.elk/charts
 helm install --name sample-elk mb-sample/sample-elk
 ```
-쿠버네티스 클러스터에 마이크로 서비스 Builder add-on을 설치하는데 대략 20분 정도가 소요됩니다. 그동안 애플레이션 및 마이크로 서비스 빌드를 시작합니다.
+쿠버네티스 클러스터에 Microservice Builder add-on을 설치하는데 대략 20분 정도가 소요됩니다. 그동안 애플레이션 및 마이크로 서비스 빌드를 시작합니다.
 
 > 참고: 고유한 애플리케이션을 빌드하지 않는것이 아니라면, 기본으로 제공하는 Docker 이미지를 사용할 수 있으며 [4 단계](#4-서비스-및-디플로이먼트-생성)로 이동할 수 있습니다.
 
