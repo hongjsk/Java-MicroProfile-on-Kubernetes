@@ -187,7 +187,7 @@ secret-generator-deploy-bj1jj           0/1       Completed   0          11m  # 
 
 이제, `kubectl create -f manifests` 명령으로 마이크로 서비스를 배포합니다.
 
-모든 서비스와 구축을 생성한 다음 10분 ~ 15분 정도 기다립니다. 쿠버네티스 UI에서 구축의 상태를 확인할 수 있습니다. 'kubectl proxy'를 실행하고 URL 'http://127.0.0.1:8001/ui'에서 애플리케이션 컨테이너가 언제 준비되는지 확인합니다.
+모든 서비스와 구축을 생성한 다음 10분 ~ 15분 정도 기다립니다. 쿠버네티스 UI에서 구축의 상태를 확인할 수 있습니다. 'kubectl proxy'를 실행하고 URL 'http://127.0.0.1:8001/ui' 에서 애플리케이션 컨테이너가 언제 준비되는지 확인합니다.
 
 ![Kubernetes Status Page](images/kube_ui.png)
 
